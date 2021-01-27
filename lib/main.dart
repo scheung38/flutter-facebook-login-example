@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -109,7 +110,7 @@ class _HomePageState extends State<HomePage> {
                 FlatButton(
                   onPressed: _loginWithFacebook,
                   color: Colors.blueAccent,
-                  child: Text("LOGIN"),
+                  child: Text("MY LOGIN"),
                 ),
               if (_fetching) CircularProgressIndicator(),
               if (_accessToken != null) ...[
