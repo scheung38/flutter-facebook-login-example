@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "756688434039",
+    "project_id": "femina-74497",
+    "storage_bucket": "femina-74497.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756688434039:android:245d2c58a0a64142e66772",
+        "android_client_info": {
+          "package_name": "com.femina.dev.frontend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756688434039-m1to4bq35fc5tvi5a6c7ftlh3gio9mjl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZSpZvN27Kkell73YO7F7Ic7clE703U9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756688434039-m1to4bq35fc5tvi5a6c7ftlh3gio9mjl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "756688434039-qabp277djm14rqds021fjdjn4qjllqok.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.femina.dev.frontend"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

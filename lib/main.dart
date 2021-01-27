@@ -2,7 +2,9 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(MyApp());
 }
 
@@ -58,7 +60,8 @@ class _HomePageState extends State<HomePage> {
   }
 
   Future<void> _getUserData() async {
-    _userData = await FacebookAuth.instance.getUserData(fields: "email,name,picture.width(300),birthday,friends");
+    _userData = await FacebookAuth.instance
+        .getUserData(fields: "email,name,picture.width(300),birthday,friends");
   }
 
   Future<void> _loginWithFacebook() async {

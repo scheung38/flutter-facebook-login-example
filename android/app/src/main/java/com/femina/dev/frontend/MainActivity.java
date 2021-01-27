@@ -1,4 +1,4 @@
-package app.meedu.facebook_auth_example;
+package com.femina.dev.frontend;
 
 
 import io.flutter.embedding.android.FlutterActivity;
